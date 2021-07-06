@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #4b1F0E;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+}
+.logo{
+    color:cornsilk;
+    letter-spacing: 5px;
+    transition: 7s ease;
+}
+.nav-links li{
+    list-style: none;
+/* Difference of text-decoration: and list-style: ;; */
+}
+.nav-links{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.nav-links a{
+    color: cornsilk;
+}
+.burger div{
+    background-color: cornsilk;
+    width: 20px;
+    height: 5px;
+    margin: 5px;
+/*margin Used for spacing */
+/* more abouta humburger menu */
+}
