@@ -1,0 +1,39 @@
+#cofee2{
+    padding-top: 30px;
+}
+.container{
+background-color:#4B1F0E;
+}
+img{
+    height:200px;
+    width: 200px;
+
+}
+.card-title,.card-text{
+    text-align: center;
+}
+.button{
+    text-align: center;
+    background-color:#D2691E ;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:white
+    
+   
+    
+}
+.button,a{
+    color:whitesmoke;
+    
+    margin-left: 90px;
+}
+#h3{
+    text-align:center;
+    color:whitesmoke;
+}
+#p{
+    color:whitesmoke;
+    text-align:center;
+    
+}
