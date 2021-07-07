@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
+<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,29 +21,27 @@
     <nav>
        
         <div class="logo">
-            <h1 class="animate__animated animate__bounce animate__delay-2`98    12s">OUR COFFEE SHOP</h1>
-<!-- Difference between id and class id-used when one element is styled.
-Class-when identifying/styling more than one element-->
-<!-- Class--. or * notation while id--#notation. -->
-        </div>
-    <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#About">About</a></li>
-        <li><a href="#">Order</a></li>
-    </ul>
-    <div class="burger">
-       <div class="line1"></div>
-       <div class="line2"></div>
-       <div class="line3"></div>
-<!-- Try using id badae-->
-    </div>
+            <h1  id="logs" class="animate__animated animate__bounce animate__delay-2`98    12s">OUR COFFEE SHOP</h1>
+
+         </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+            <div class="burger">
+                 <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+
+            </div>
     </nav>
    
     <!-- <video loop muted autoplay poster="img/videoframe.jpg" class="video">
     <source src="" type="video/mp4"> -->
    
         <div id="home" width="500" height="300">
-         <video src="videos/y2mate.com - COFFEE COMMERCIAL ADVERTISEMENT  7 miles roasters coffee beans ad_1080p.mp4" type="videos/mp4" width="100%" height="100%" autoplay loop>
+         <video src="videos/y2mate.com - COFFEE COMMERCIAL ADVERTISEMENT  7 miles roasters coffee beans ad_1080p.mp4" type="videos/mp4" width="100%" height="100%" autoplay muted loop>
        
          </video>
        
@@ -66,12 +67,14 @@ Class-when identifying/styling more than one element-->
                         </p>
         <div class="row" id ="cofee1">
                 <div class="col-md-4">
-                    <div class="card" style="width: 18rem;" onmouseover="setNewImage()" onmouseout="setOldImage()" >
-                        <img id="coff1"   class="card-img-top"  src="coffee images/Cappucino.jpg">
+                    <div class="card" id="coff1" style="width: 18rem;" onmouseover="setNewImage()" onmouseout="setOldImage()" >
+                        <div class="containeroverlay">
+                        <img   class="card-img-top"  src="coffee images/Cappucino.jpg"></div>
                         <div class="card-body">
                           <h5 class="card-title">Cappucino</h5>
                           <p class="card-text">$200</p>
                           <a href="#" class="button">ORDER</a>
+                          <!-- <a class=""> -->
 
                         </div>
                     </div>

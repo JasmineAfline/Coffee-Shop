@@ -1,8 +1,8 @@
-// function setNewImage()
-// {
-// // //  document.getElementById("coff1"). src="coffee images/Cappucino.jpg";
-// // //  document.getElementById("coff1").innerHTML="Ingredients"
+function setNewImage()
+{
+ document.getElementsByClassName("coff1"). src="coffee images/Cappucino.jpg";
 
+}
 // // // var coffee=document.createElement("p")
 // // // coffee.innerHTML="jskjdalksjdlakmlkajdlakdlkasd"
 // // document.getElementById("coff1").appendChild(coffee)
@@ -15,11 +15,10 @@
 
 // // }
 // }
-// function setOldImage()
-// {
+function setOldImage()
+{
     
-//     // document.getElementById("coff1").src="coffee images/Hazelnut.jpg"
-//     document.getElementById("coff1").setAttribute("src","coffee images/Hazelnut.jpg")
+    document.getElementById("coff1").src="coffee images/Hazelnut.jpg";
 
 
-// }
+}
