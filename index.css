@@ -4,6 +4,18 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    background-color: #4b1F0E;
+
+
+}
+#About{
+    background-color: #4b1F0E;
+    width: auto;
+    height: auto;
+    
+
+}
 nav{
     background-color: #4b1F0E;
     display:flex;
@@ -42,6 +54,7 @@ nav{
 }
 .container{
 background-color:#4B1F0E;
+
 }
 img{
     height:200px;
@@ -70,10 +83,30 @@ img{
 #h3{
     text-align:center;
     color:whitesmoke;
+   padding: 10px;
+   font-size: 30px;
 }
 #p{
     color:whitesmoke;
     text-align:center;
-    
+    margin-bottom: 20px;
+    font-size: 19px;
 
+}
+.card{
+    margin-left: 60px;
+    height: 350px;
+    width: 350px;
+    padding: 5px;
+}
+
+#span{
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 50px;
+}
+#home{
+    background-image: url();
 }

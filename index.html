@@ -24,7 +24,7 @@ Class-when identifying/styling more than one element-->
 <!-- Class--. or * notation while id--#notation. -->
         </div>
     <ul class="nav-links">
-        <li><a href="#">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#About">About</a></li>
         <li><a href="#">Order</a></li>
     </ul>
@@ -35,11 +35,15 @@ Class-when identifying/styling more than one element-->
 <!-- Try using id badae-->
     </div>
     </nav>
-    <video autoplay loop class="video-background" autoplay>
-        <source src="videos/y2mate.com - COFFEE COMMERCIAL ADVERTISEMENT  7 miles roasters coffee beans ad_1080p.mp4" type="video/mp4">
-            <iframe width="400" height="300" ... ></iframe>
-        </video>
-
+   
+    <!-- <video loop muted autoplay poster="img/videoframe.jpg" class="video">
+    <source src="" type="video/mp4"> -->
+   
+        <div id="home" width="500" height="300">
+         <video src="videos/y2mate.com - COFFEE COMMERCIAL ADVERTISEMENT  7 miles roasters coffee beans ad_1080p.mp4" type="videos/mp4" width="100%" height="100%" autoplay loop>
+       
+         </video>
+       
     </div>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
@@ -52,10 +56,15 @@ Class-when identifying/styling more than one element-->
         <div class="container">
             <h3 id="h3">ABOUT US</h3>
             <p id="p">
-    
-            </p>
-        
-            <div class="row" id ="cofee1">
+                When it comes to coffee houses in Kenya, Our Coffee Shop is perhaps as high end as it gets.
+                That simply means we have excellent coffee served within beautifully decorated establishments
+                found in one of the most iconic locations in the city - Karen,Nairobi.Our Coffee Shop offers a
+                wide variety of expertlty brewed coffee and a regional choice menu.With ingredients from Ethiopia-World
+                best coffee growers,our coffee will most definately send your taste buds reeling.<br> <br> 
+                
+                    <span id="span">Check out our menu for available coffee flavours</span> 
+                        </p>
+        <div class="row" id ="cofee1">
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;" onmouseover="setNewImage()" onmouseout="setOldImage()" >
                         <img id="coff1"   class="card-img-top"  src="coffee images/Cappucino.jpg">
@@ -126,13 +135,9 @@ Class-when identifying/styling more than one element-->
                           <h5 class="card-title">Macho Coffee</h5>
                           <p class="card-text">$300</p>
                           <a href="#" class="button">ORDER</a>
-                         
                         </div>
                     </div>
                 </div>
-    
-                
-    
             </div>
         
     </div>
