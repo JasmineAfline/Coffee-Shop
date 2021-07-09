@@ -1,4 +1,23 @@
+#gototop{
+   padding: 10px;
+   width:70px;
+   font-size: 20px;
+    border-radius: 25%;
+    background-color: chocolate;
+    margin-left: 90%;
+    
+}
+#logs{
+    width:100px;
+    height: 90px;
+    transition: width 2s ,height  2s,transform ;
 
+}
+#logs:hover{
+    width: 100px;
+    height: 150px;
+    transform: rotate(180deg);
+}
 body{
     line-height: 1.5;
   }
@@ -369,6 +388,9 @@ span.price {
     .col-25 {
         margin-bottom: 20px;
     }
+}
+#bil{
+    color: white;
 }
 
 
