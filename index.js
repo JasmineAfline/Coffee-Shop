@@ -76,8 +76,6 @@ function setNewImage1(){
                
             }  
 
-
-
             function setNewImage4(){
                 document.getElementById("coff5"). src="affogato.jpg";
                 }
@@ -85,8 +83,6 @@ function setNewImage1(){
                    document.getElementById("coff5").src="coffee images/carammel2.jpg"
                    
                 }
-
-
 
                 function setNewImage5(){
                     document.getElementById("coff6"). src="mocha.jpg";
